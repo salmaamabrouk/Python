@@ -57,3 +57,41 @@
 15. Write a function that takes an arbitrary number of lists as input using *argsand returns a new list that contains all the elements from all the input lists.
 
 16. Write a function that takes a string as input and an arbitrary number of keyword arguments using **kwargs. The function should replace all instances of the keyword argument keys in the input string with their corresponding values.
+
+
+
+################################### LAB 3 ###################################
+
+
+
+1. Create a class Rectangle with two attributes width and height. The class should have a method area() that returns the area of the rectangle.
+
+2. Create a class Circle with one attribute radius. The class should have a method circumference() that returns the circumference of the circle.
+
+3. Create a class Employee with threeattributes name, age, and salary. The class should have a method raise_salary() that increases the employee's salary by a given percentage.
+
+4. Create a class Book with two attributes title and author. The class should have a method display() that prints the title and author of the book.
+
+5. Create a class Car with four attributes make, model, year, and mileage. The class should have a method drive() that increments the mileage of the car by a given amount.
+
+6. Create a class Person with two attributes name and age. The class should have a constructor that initializes the name and age attributes. Also, implement a destructor for the class that prints a message when the object is destroyed.
+
+7. Create a class BankAccount with two attributes account_number and balance. The class should have a constructor that initializes the account_number and balance attributes. Also, implement a destructor for the class that prints a message when the object is destroyed.
+
+8. [Single Inheritance] Create a class Vehicle with an attribute speed. Create a subclass Car that inherits from Vehicle and has an attribute brand. Implement a method in Car that returns the brand and speed of the car.
+
+9. [Multiple inheritance] Create a class Animal with an attribute name. Create a class Pet with an attribute owner.
+
+10. Create a subclass Dog that inherits from both Animal and Pet and has an attribute breed. Implement a method in Dog that returns the name, owner, and breed of the dog.
+
+11. [Multilevel inheritance] Create a class Person with an attributename. Create a subclass Employee that inherits from Person and has an attribute salary. Create a subclass Manager that inherits from Employee and has an attribute department. Implement a method in Manager that returns the name, salary, and department of the manager.
+
+12. [Hierarchical Inheritance] Create a class Shape with an attribute color. Create a subclass Rectangle that inherits from Shape and has attributes width and height.
+
+13. Create a subclass Circle that inherits from Shape and has an attribute radius.Implement a method in each subclass that returns the area of the shape.
+
+14. [Encapsulation] Create a class BankAccount with a private attribute balance. Implement methods deposit and withdraw to modify the balance, and a method get_balance to retrieve the balance.
+
+15. [Polymorphism] Create a class Animal with an abstract method speak(). Implement subclasses Dog and Cat that override speak() to output the respective animal sounds.
+
+16. Create a class Calculator with a class method add that takes two numbers as arguments and returns their sum.
